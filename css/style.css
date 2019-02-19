@@ -24,6 +24,10 @@
     border-radius: 0px 8px 8px 0px;
 }
 
+/* Social Media */
+
+
+
 /* Home Page */
 
 h1 {
@@ -42,7 +46,7 @@ h2 {
 /* About Me */
 
 .selfie {
-    height: 340px;
+    height: 322px;
     border-radius: 10px;
     margin-top: 5%;
     margin-left: 25%;
@@ -53,5 +57,17 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 5%;
     margin-left: 10%;
+    font-size: 16px;
+}
+
+/* My Work */
+
+.description-text-b {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-text {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
