@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sacramento');
 
 .nav {
     height: 700px;
     background-color: #ebdddf;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .navbar {
@@ -18,4 +19,18 @@
 .content {
     height: 700px;
     background-color: #ffd1d4;
+    border-radius: 0px 8px 8px 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
