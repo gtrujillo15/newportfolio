@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Sacramento');
 
+/* Navigation */
+
 .nav {
     height: 700px;
     background-color: #ebdddf;
@@ -22,6 +24,8 @@
     border-radius: 0px 8px 8px 0px;
 }
 
+/* Home Page */
+
 h1 {
     text-align: center;
     margin-top: 15%;
@@ -33,4 +37,21 @@ h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+}
+
+/* About Me */
+
+.selfie {
+    height: 340px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.aboutme-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 16px;
 }
