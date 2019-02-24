@@ -1,0 +1,19 @@
+/* My Work */
+
+.scroll {
+    overflow-y: auto;
+}
+
+.description-text-b {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.project {
+    padding-top: 20px;
+}
