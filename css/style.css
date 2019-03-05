@@ -30,14 +30,14 @@
 
 /* Home Page */
 
-h1 {
+.hello {
     text-align: center;
     margin-top: 15%;
     font-family: 'Sacramento', cursive;
     font-size: 70px;
 }
 
-h2 {
+.welcome {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -74,4 +74,12 @@ h2 {
 
 .project {
     padding-top: 20px;
+}
+
+/* Resume */
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
