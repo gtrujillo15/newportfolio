@@ -78,8 +78,13 @@
 
 /* Resume */
 
+.resume {
+    text-align: center;
+}
+
 .name {
     text-align: center;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+
