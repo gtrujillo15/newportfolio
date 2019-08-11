@@ -30,11 +30,34 @@
 
 /* Home Page */
 
+.dots {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+} 
+
 .hello {
     text-align: center;
     margin-top: 15%;
     font-family: 'Sacramento', cursive;
-    font-size: 70px;
+    font-size: 70px; 
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        padding-top: 0px;
+    }
+
+    50% {
+        padding-top: 20px;
+    }
+
+    100% {
+        padding-top: 0px;
+    }
 }
 
 .welcome {
@@ -88,3 +111,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Footer */
+
+.social {
+    height: 220px;
+    width: 100%;
+    margin-top: 50%;
+    margin-left: 25%;
+}
+
+.fab {
+    margin-left: 10px;
+}
